@@ -8,7 +8,6 @@ module ChampionsHelper
 	def getChampionImages(name)
 		loading_splash = "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/#{name}_0.jpg"
 		icon = "http://ddragon.leagueoflegends.com/cdn/#{$ddragon_version}/img/champion/#{name}.png"
-		byebug
 		{:loading_splash => loading_splash, :icon => icon}
 	end
 
