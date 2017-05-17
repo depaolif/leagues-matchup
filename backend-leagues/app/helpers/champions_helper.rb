@@ -1,6 +1,6 @@
 module ChampionsHelper
 	def getChampionInfo(id)
-		RestClient.get "http"
+		# RestClient.get "http"
 	end
 
 	def getChampionId(name)

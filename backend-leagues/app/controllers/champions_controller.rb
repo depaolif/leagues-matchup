@@ -7,8 +7,8 @@ class ChampionsController < ApplicationController
 		byebug
 		party = params["party"]
 		if party == "enemy" 
-			enemytips = 
-		champion = Champion.find_or_create_by(id: id)
+			# get enemy tips from url
+		# champion = Champion.find_or_create_by(id: id)
 	end
 
 end
