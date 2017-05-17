@@ -57,6 +57,7 @@ gem 'pry'
 gem 'rest-client'
 gem 'json'
 gem 'figaro'
+gem 'byebug-color-printer'
 
 
 
