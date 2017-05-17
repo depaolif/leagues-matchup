@@ -2,5 +2,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :champions, only: [:create, :show]
 
-  get '/findChampion/:name/:party', to: 'champions#create'
+  get '/getPlayerChampion/:name/:enemy_name', to: 'champions#getPlayerChampion'
+  get '/getEnemyChampion/:name', to: 'champions#getEnemyChampion'
 end
